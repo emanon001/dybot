@@ -27,7 +27,8 @@
     "dybot-scripts": "git://github.com/dyous/dybot-scripts",
     "hubot": ">= 2.6.0 < 3.0.0",
     "hubot-backlog": "git://github.com/bouzuya/hubot-backlog",
-    "hubot-hipchat": ">= 2.6.4"
+    "hubot-hipchat": ">= 2.6.4",
+    "hubot-sakagemc": "git://github.com/bouzuya/hubot-sakagemc"
   },
   "engines": {
     "node": ">= 0.10.x",
