@@ -1,6 +1,6 @@
 {
   "name": "dybot",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A hubot for team dyous",
   "scripts": {
     "start": "hubot -a hipchat -n dybot -r node_modules/hubot/src/scripts"
