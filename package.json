@@ -1,0 +1,35 @@
+{
+  "name": "dybot",
+  "version": "0.1.0",
+  "description": "A hubot for team dyous",
+  "scripts": {
+    "start": "hubot -a hipchat -n dybot -r node_modules/hubot/src/scripts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dyous/dybot.git"
+  },
+  "keywords": [
+    "github",
+    "hubot",
+    "dyous",
+    "hipchat",
+    "bot"
+  ],
+  "author": {
+    "name": "bouzuya",
+    "url": "http://bouzuya.net/",
+    "email": "bouzuya@gmail.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "hubot": ">= 2.6.0 < 3.0.0",
+    "hubot-hipchat": ">= 2.6.4",
+    "hubot-backlog": "git://github.com/bouzuya/hubot-backlog",
+    "dybot-scripts": "git://github.com/dyous/dybot-scripts"
+  },
+  "engines": {
+    "node": ">= 0.10.x",
+    "npm": ">= 1.4.x"
+  }
+}
