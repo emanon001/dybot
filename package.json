@@ -23,10 +23,11 @@
   },
   "license": "ISC",
   "dependencies": {
+    "coffee-script": "^1.7.1",
+    "dybot-scripts": "git://github.com/dyous/dybot-scripts",
     "hubot": ">= 2.6.0 < 3.0.0",
-    "hubot-hipchat": ">= 2.6.4",
     "hubot-backlog": "git://github.com/bouzuya/hubot-backlog",
-    "dybot-scripts": "git://github.com/dyous/dybot-scripts"
+    "hubot-hipchat": ">= 2.6.4"
   },
   "engines": {
     "node": ">= 0.10.x",
